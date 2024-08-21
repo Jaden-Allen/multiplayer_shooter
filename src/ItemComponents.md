@@ -53,6 +53,8 @@ All components used on items and weapons
 | :-------- | :------- | :---- | :------------------------- |
 | `material_type` | `int` | [0, 1] | **Required**. The type of material used on the geometry. (0 = Opaque, 1 = AlphaTest) |
 | `color` | `Color` |  | **Required**. The main color that the material will use to apply to the texture |
+| `smoothness` | `float` | [0, 1] | **Required**. The main color that the material will use to apply to the texture |
+| `metallic` | `float` | [0, 1] | **Required**. The main color that the material will use to apply to the texture |
 | `main_tex_path` | `string` |  | **Required**. The path to the .png texture Ex. `textures/items/item.png` |
 ```json
 "material": {
